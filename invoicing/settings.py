@@ -95,8 +95,8 @@ WSGI_APPLICATION = 'invoicing.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'seewyinvoice',
-        'USER': 'postgres',
+        'NAME': 'seweinvoice',
+        'USER': 'seweadmin',
         'PASSWORD': 'Salamatahmad',
         'HOST': 'localhost',
         'PORT': '',
